@@ -12,12 +12,16 @@ Notes:
 - Content source of truth added in `content/site.ts`.
 - Service hubs and dynamic service routes created.
 Next:
-- Commit and push milestone checkpoint.
+- Milestone checkpoint committed and pushed.
 
 ## Milestone 3 — All Routes Implemented + Hubs + Services
-Status: IN PROGRESS
+Status: DONE
+Notes:
+- Implemented full route tree including service hubs, resources, blog, and legal pages.
+- Global layout includes header, footer, and mobile CTA bar.
 Next:
-- Finalize layout (header/footer/mobile CTA bar) and commit.
+- Create SEO/DEPLOY/GRAPHICS docs and finalize remaining polish.
+ - Document build warning about workspace root if it recurs.
 
 Decisions / Tradeoffs:
 - None yet.

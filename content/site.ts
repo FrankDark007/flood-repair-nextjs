@@ -1346,3 +1346,146 @@ export const ctas = {
   primary: { label: "Request Service", href: "/request/" },
   secondary: { label: "Call Now", href: `tel:${business.phone}` },
 };
+
+export const pages = {
+  home: {
+    title: "Flood Doctor | Emergency Water, Flood & Storm Restoration",
+    description:
+      "24/7 emergency water damage restoration and flood cleanup across Northern Virginia with fast response and verified drying.",
+    headline: "Emergency restoration, handled with precision.",
+    subhead:
+      "Flood Doctor responds fast with documented drying, clear communication, and a proven recovery plan for homes and facilities.",
+  },
+  about: {
+    title: "About Flood Doctor",
+    description:
+      "Meet the Flood Doctor team: emergency-ready restoration specialists serving Northern Virginia.",
+    headline: "Restoration teams built for rapid recovery.",
+    subhead:
+      "We combine immediate response with disciplined documentation so property owners and insurers know exactly what’s happening.",
+  },
+  contact: {
+    title: "Contact Flood Doctor",
+    description:
+      "Contact Flood Doctor for 24/7 emergency response across Northern Virginia.",
+    headline: "Contact Flood Doctor",
+    subhead: "Call anytime for immediate help. We’re ready to respond 24/7.",
+  },
+  reviews: {
+    title: "Reviews | Flood Doctor",
+    description:
+      "Verified review placement for Flood Doctor. See our Google reviews and testimonials once published.",
+    headline: "Reviews and reputation",
+    subhead:
+      "We will publish verified customer reviews here. For now, visit Google to see live feedback.",
+  },
+  locations: {
+    title: "Locations | Flood Doctor",
+    description:
+      "Local service coverage across Northern Virginia. Explore city-specific pages for localized support.",
+    headline: "Local service coverage",
+    subhead:
+      "We serve the region via city pages and dedicated response teams. Edit the list as new locations launch.",
+  },
+  request: {
+    title: "Request Service | Flood Doctor",
+    description:
+      "Submit a fast service request to dispatch Flood Doctor’s emergency response teams.",
+    headline: "Request service now",
+    subhead:
+      "Tell us what happened and we’ll dispatch the right crew. For emergencies, call 1(877) 497-0007.",
+  },
+  resources: {
+    title: "Resources | Flood Doctor",
+    description:
+      "Guides, FAQs, and emergency checklists for property owners and facility managers.",
+    headline: "Resource center",
+    subhead:
+      "Clear guidance for water emergencies, insurance documentation, and restoration planning.",
+  },
+  blog: {
+    title: "Flood Doctor Blog",
+    description:
+      "Local restoration insights and emergency preparedness guidance for Northern Virginia.",
+    headline: "Restoration insights and preparedness",
+    subhead:
+      "Practical guidance for homeowners and facility leaders navigating water damage recovery.",
+  },
+  nearme: {
+    title: "Water Damage Restoration Near Me | Flood Doctor",
+    description:
+      "Conversion-focused landing page for water damage restoration near Vienna, VA and Northern Virginia.",
+    headline: "Water damage restoration near you",
+    subhead:
+      "Rapid response teams across Northern Virginia with verified drying and clear communication.",
+  },
+  careers: {
+    title: "Careers | Flood Doctor",
+    description:
+      "Join the Flood Doctor team. Explore restoration roles and training opportunities.",
+    headline: "Build a career in emergency restoration",
+    subhead:
+      "We train for speed, safety, and empathy. See open roles and growth paths.",
+  },
+  privacy: {
+    title: "Privacy Policy | Flood Doctor",
+    description:
+      "Plain-language privacy policy for Flood Doctor services and online interactions.",
+    headline: "Privacy Policy",
+    subhead: "Your information is handled with care and used only for service delivery.",
+  },
+  terms: {
+    title: "Terms of Service | Flood Doctor",
+    description:
+      "Terms governing Flood Doctor services and website usage.",
+    headline: "Terms of Service",
+    subhead: "Clear terms for service requests, scheduling, and site usage.",
+  },
+};
+
+export const resources = [
+  {
+    slug: "faq",
+    title: "Frequently Asked Questions",
+    description: "Answers to the most common restoration questions.",
+    bullets: [
+      "Response timelines and dispatch",
+      "Insurance documentation",
+      "Drying timelines and equipment",
+    ],
+  },
+  {
+    slug: "technology",
+    title: "Restoration Technology",
+    description: "Tools and systems we use to verify drying and safety.",
+    bullets: [
+      "Moisture mapping",
+      "HEPA filtration",
+      "Dehumidification monitoring",
+    ],
+  },
+  {
+    slug: "communication",
+    title: "Communication Standards",
+    description: "How we keep property owners and adjusters aligned.",
+    bullets: ["Daily updates", "Written scopes", "Photo documentation"],
+  },
+  {
+    slug: "homeowner-guides",
+    title: "Homeowner Guides",
+    description: "What to do immediately after a water event.",
+    bullets: ["Safety steps", "Shutoff guidance", "Documenting damage"],
+  },
+  {
+    slug: "insurance-guide",
+    title: "Insurance Guide",
+    description: "How to document, file, and manage restoration claims.",
+    bullets: ["Claim workflow", "Documentation checklist", "Restoration scope basics"],
+  },
+  {
+    slug: "emergency-checklists",
+    title: "Emergency Checklists",
+    description: "Printable checklists for fast, safe response.",
+    bullets: ["Water damage checklist", "Flood safety checklist", "After-hours contacts"],
+  },
+];

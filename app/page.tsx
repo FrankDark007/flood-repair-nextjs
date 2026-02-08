@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { business, serviceHubs } from "@/content/site";
+import { business, serviceHubs, pages } from "@/content/site";
 import { buildMetadata } from "@/lib/seo";
 import { Container } from "@/components/Container";
 import { ButtonLink } from "@/components/ButtonLink";
@@ -7,9 +7,8 @@ import { ServiceCard } from "@/components/ServiceCard";
 import { Reveal } from "@/components/Reveal";
 
 export const metadata = buildMetadata({
-  title: "Flood Doctor | Emergency Water, Flood & Storm Restoration",
-  description:
-    "24/7 emergency response for water damage, flood cleanup, and specialty drying across Northern Virginia. Fast arrival, clear communication, and verified drying standards.",
+  title: pages.home.title,
+  description: pages.home.description,
   path: "/",
 });
 
