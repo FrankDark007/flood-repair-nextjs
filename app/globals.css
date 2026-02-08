@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+:root {
+  --brand: 217 86% 52%;
+  --brand-dark: 219 76% 41%;
+  --brand-soft: 214 93% 94%;
+  --ink: 222 47% 11%;
+  --muted: 215 16% 47%;
+  --surface: 210 40% 98%;
+  --border: 214 32% 91%;
+  --ring: 217 86% 52%;
+}
+
+@theme inline {
+  --color-brand: hsl(var(--brand));
+  --color-brand-dark: hsl(var(--brand-dark));
+  --color-brand-soft: hsl(var(--brand-soft));
+  --color-ink: hsl(var(--ink));
+  --color-muted: hsl(var(--muted));
+  --color-surface: hsl(var(--surface));
+  --color-border: hsl(var(--border));
+  --color-ring: hsl(var(--ring));
+  --font-sans: var(--font-body);
+}
+
+@layer base {
+  * {
+    border-color: hsl(var(--border));
+  }
+
+  body {
+    @apply bg-white text-ink font-sans antialiased;
+  }
+
+  a {
+    @apply text-ink;
+  }
+
+  ::selection {
+    background: hsl(var(--brand));
+    color: white;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .reveal {
+    opacity: 0;
+    transform: translateY(16px);
+    transition: opacity 600ms ease, transform 600ms ease;
+  }
+
+  .reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .bg-grid {
+    background-image: url("/graphics/grid.svg");
+    background-size: 900px 900px;
+    background-repeat: repeat;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
