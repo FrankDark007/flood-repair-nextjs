@@ -20,8 +20,8 @@ Notes:
 - Implemented full route tree including service hubs, resources, blog, and legal pages.
 - Global layout includes header, footer, and mobile CTA bar.
 Next:
-- Create SEO/DEPLOY/GRAPHICS docs and finalize remaining polish.
- - Document build warning about workspace root if it recurs.
+- SEO/DEPLOY/GRAPHICS docs created.
+- Document build warning about workspace root if it recurs.
 
 Decisions / Tradeoffs:
 - None yet.
