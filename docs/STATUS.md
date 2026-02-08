@@ -23,5 +23,24 @@ Next:
 - SEO/DEPLOY/GRAPHICS docs created.
 - Document build warning about workspace root if it recurs.
 
+## Milestone 4 — Request Form + API + Leads Storage
+Status: DONE
+Notes:
+- Request form built at `/request/`.
+- API route validates and stores leads in `data/leads.json`.
+
+## Milestone 5 — SEO Complete (Metadata, Schema, Sitemap, Robots)
+Status: DONE
+Notes:
+- `lib/seo.ts` metadata helper wired to all pages.
+- JSON-LD schema added for Organization, LocalBusiness, WebSite, Breadcrumbs, Service, FAQ, and BlogPosting.
+- `/sitemap.xml` and `/robots.txt` implemented.
+
+## Milestone 6 — Animation + SVG Graphics + Final Polish
+Status: DONE
+Notes:
+- IntersectionObserver reveals with reduced-motion guard.
+- SVG assets stored in `/public/graphics` and documented in `/docs/GRAPHICS.md`.
+
 Decisions / Tradeoffs:
 - None yet.
