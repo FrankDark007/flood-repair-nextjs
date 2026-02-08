@@ -5,6 +5,8 @@ import { Container } from "@/components/Container";
 import { ButtonLink } from "@/components/ButtonLink";
 import { ServiceCard } from "@/components/ServiceCard";
 import { Reveal } from "@/components/Reveal";
+import { JsonLd } from "@/components/JsonLd";
+import { breadcrumbSchema } from "@/lib/schema";
 
 export const metadata = buildMetadata({
   title: pages.home.title,
@@ -13,8 +15,11 @@ export const metadata = buildMetadata({
 });
 
 export default function HomePage() {
+  const crumbs = [{ name: "Home", url: "https://flood.repair/" }];
+
   return (
     <div className="bg-white">
+      <JsonLd data={breadcrumbSchema(crumbs)} />
       <section className="relative overflow-hidden bg-surface/80 bg-grid">
         <Container className="py-20 md:py-28">
           <div className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">

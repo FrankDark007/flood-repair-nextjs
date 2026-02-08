@@ -5,9 +5,9 @@ import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema } from "@/lib/schema";
 
 export const metadata = buildMetadata({
-  title: "Specialty Services | Flood Doctor",
+  title: "Commercial Specialty Services | Flood Doctor",
   description:
-    "Specialty Services for Commercial properties across Northern Virginia.",
+    "Commercial specialty services for complex facilities across Northern Virginia.",
   path: "/services/commercial/specialty-services/",
 });
 
