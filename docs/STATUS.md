@@ -44,3 +44,8 @@ Notes:
 
 Decisions / Tradeoffs:
 - None yet.
+
+## Verification (2026-02-08)
+- Verified: service routes render, `/request` flow writes to `data/leads.json`, `npm run build`.
+- Commands: `npm run build`, `npm run start`, `curl`, `node` route checks.
+- Commit: `c25fe86`
